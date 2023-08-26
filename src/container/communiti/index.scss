@@ -1,0 +1,91 @@
+
+.page {
+	padding: 24px;
+	max-width: 400px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.button {
+	transition: opacity 0.7s;
+	cursor: pointer;
+
+    &__main {
+        width: 100%;
+        height: 46px;
+        background-color: #f46f17;
+        padding: 10px;
+        border-radius: 12px;
+        color: white;
+    }
+
+	&:hover {
+		opacity: 0.7;
+	}
+
+    &__main:hover {
+        opacity: 0.7;
+    }
+ 
+    &__tabs--1 {
+        font-size: 18px;
+        color: gray;                  
+        border-bottom: 1px solid gray;        
+        width: 190px;
+        padding: 16px;
+    }
+
+    &__tabs--1:hover {
+        opacity: 0.7;
+    }
+
+    &__tabs--2 {
+        font-size: 18px;                  
+        border-bottom: 2px solid black;        
+        width: 190px;
+        padding: 16px;
+    }
+
+    &__tabs--2:hover {
+        opacity: 0.7;
+    }
+
+   
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+	font-size: 24px; 
+	color: #121212;
+}
+
+.subtitle {
+	font-size: 18px;
+    font-weight: bold; 
+	color: #121212;
+}
+
+.description {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.post__list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+	
